@@ -1,0 +1,26 @@
+{
+  "name": "opticonv",
+  "version": "1.0.0",
+  "description": "Gulp based converter. Converts images and fonts into new formats.",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "woff": "gulp woff",
+    "webp": "gulp webp"
+  },
+  "keywords": [
+    "gulp",
+    "images convert",
+    "fonts convert"
+  ],
+  "author": "Mykhailo Unniiiverse <unniiiverse.github.io>",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-webp": "^4.0.1"
+  }
+}
